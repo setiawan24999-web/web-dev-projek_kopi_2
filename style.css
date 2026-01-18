@@ -1,0 +1,149 @@
+/* =====================
+   CSS VARIABLE (WARNA)
+===================== */
+:root {
+    --primary: #2c3e50;
+    --secondary: #3498db;
+    --background: #f4f6f8;
+    --text: #333;
+    --white: #ffffff;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+   font-family: 'Poppins', sans-serif;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* HEADER */
+.header {
+    background-color:rgba(140, 122, 122, 0.427);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    text-shadow: text-shadow: 1px 1px 2px rgba(0,0,0,0.6);;
+}
+.header span {
+    color: coral;
+}
+
+/* NAV */
+.nav {
+    background-color: none;
+    border: 2px solid chocolate;
+}
+
+.nav ul {
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav ul li {
+    margin: 10px 20px;
+}
+
+.nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    margin: 20px;
+    margin-left: 30px;
+    background-color: none;
+    padding: 3px 2px;
+    text-align: left;
+    color: #ffffff;
+ 
+ 
+}
+.hero{
+
+
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.hero p {
+    font-size: 15px;
+    font-weight: 50;
+}
+.hero span {
+    color: coral;
+}
+
+/* MAIN CONTAINER */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* CONTENT */
+.content {
+    flex: 3;
+}
+
+.article {
+    border: 1px solid rgb(147, 65, 35);
+    background-color: none;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    color: #ffffff;
+    text-shadow: text-shadow: 1px 1px 2px rgba(0,0,0,0.6);;
+}
+.article p {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+
+.article h3 {
+    margin-bottom: 10px;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+/* SIDEBAR */
+.sidebar{
+      border: 1px solid rgb(147, 65, 35);
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 20px 20px;
+    margin-left: 350px;
+    text-align: left;
+    margin-bottom: auto;
+    font-size: 16px;
+    font-weight: 50;
+color: rgba(255,255,255,0.8);
+ text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: var(--primary);
+    color: var(--white);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
